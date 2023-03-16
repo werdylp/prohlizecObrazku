@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="background.png" />
+    <None Remove="betterbackground.png" />
+    <None Remove="VOSSPSJICINplakat.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="background.png" />
+    <Resource Include="betterbackground.png" />
+    <Resource Include="VOSSPSJICINplakat.png" />
+  </ItemGroup>
+
+</Project>
